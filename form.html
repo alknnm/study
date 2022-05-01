@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <p><a href="index.html">На главную</a></p>
+    <p><a href=#form">Перейти к форме</a></p>
+
+
+    <form action="" method="post">
+        <input type="text" placeholder="Введите имя" name="First name" required>
+        <input type="text" placeholder="Введите фамилию" name="Last name" required>
+        <input type="submit" name="button">
+    </form>
+
+    <h1>Тема занятия: Формы</h1>
+    <p>Я изучаю верстку формы на HTML</p>
+
+    <form action="" method="post">
+        <p class="margin0">Фамилия</p>
+        <input type="text" placeholder="Введите фамилию" name="lastname" required size="30">
+        <p class="margin0">Имя</p>
+        <input type="text" placeholder="Введите имя" name="firstname" required size="30">
+        <p class="margin0">Почта</p>
+        <input type="text" placeholder="Введите почту" name="email" required size="30">
+        <p class="margin0">Школа и класс</p>
+        <input type="text" placeholder="Введите школу и класс" name="scool" required size="30">
+        <p class="margin0">Курс</p>
+        <input type="text" value="HTML, CSS" name="course" readonly size="30">
+        <p class="margin0">Группа</p>
+        <input type="text" placeholder="Введите номер группы" name="number" required size="30">
+        <p>Мой любимый интернет-ресурс</p>
+        <input type="text" placeholder="Введите веб-сайт" name="website" required size="30">
+        <p>Мой любимый цвет</p>
+        <input type="color" placeholder="Введите цвет" name="color" required size="30">
+        <p>Дата рождения</p>
+        <input type="text" placeholder="дд.мм.гг" name="vozrast" required size="30">
+        <p>
+            <select name="age" id="form">
+                <option value="Сколько вам лет?" disabled selected>Сколько вам лет?</option>
+                <option value="18-25"> 18-25</option>
+                <option value="26-30"> 26-30</option>
+                <option value="31-45"> 31-45</option>
+            </select></p>
+        <textarea name="request" id="" cols="30" rows="10" placeholder="Введите краткое описание о себе"></textarea>
+        <br>
+        <input type="submit" name="button" value="Жмякай">
+    </form>
+
+
+</body>
+
+</html>
